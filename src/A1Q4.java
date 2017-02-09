@@ -33,8 +33,10 @@ public class A1Q4 {
         new Wall(sentosa,1,1,Direction.WEST);
         new Wall(sentosa,1,1,Direction.SOUTH);
         
-        
-        //
+        //move merlion and karel simultaneously
+        merlion.move();
+        Karel.move();
+            //
         
     }
 }
