@@ -26,7 +26,7 @@ public class A1Q4 {
         Robot merlion = new Robot(sentosa,0,0,Direction.SOUTH);
         
         //create another robot
-        Robot Karel = new Robot (sentosa,0,1,Direction.SOUTH);
+        Robot karel = new Robot (sentosa,0,1,Direction.SOUTH);
         
         // build barrier between robots
         new Wall(sentosa,0,1,Direction.WEST);
@@ -35,19 +35,19 @@ public class A1Q4 {
         
         //move merlion and karel 
         merlion.move();
-        Karel.move();
+        karel.move();
         merlion.move();
-        Karel.turnLeft();
+        karel.turnLeft();
         merlion.turnLeft();
-        Karel.move();
-        Karel.turnLeft();
-        Karel.turnLeft();
-        Karel.turnLeft();
-        Karel.move();
-        Karel.turnLeft();
-        Karel.turnLeft();
-        Karel.turnLeft();
-        Karel.move();
+        karel.move();
+        karel.turnLeft();
+        karel.turnLeft();
+        karel.turnLeft();
+        karel.move();
+        karel.turnLeft();
+        karel.turnLeft();
+        karel.turnLeft();
+        karel.move();
         merlion.move();
         
         
